@@ -38,3 +38,11 @@ Untuk meningkatkan menjadi **soft delete**, berikut saran perbaikannya:
 - Sesuaikan semua query `Product.objects.all()` menjadi `Product.objects.filter(is_deleted=False)` agar hanya menampilkan produk yang belum dihapus.
 Dengan ini, sistem akan lebih aman karena data tidak benar-benar terhapus dari basis data.
 Semangat terus dalam meningkatkan kualitas API-mu! 💪
+
+ ---
+ ⚠️ **Catatan Penting**
+ - Repository ini dibuat untuk keperluan **belajar pribadi** dan dokumentasi hasil pengerjaan proyek.
+ - **DILARANG KERAS** melakukan **plagiarisme** atau **mengirimkan ulang** repository ini sebagai submission proyek akhir Anda di platform Dicoding.
+ - Tindakan tersebut merupakan **pelanggaran terhadap peraturan Dicoding** dan dapat dikenakan **sanksi tegas**, termasuk diskualifikasi atau pemblokiran akun.
+ - Jadilah pembelajar yang jujur dan bertanggung jawab.
+ - Gunakan repository ini sebagai referensi untuk **belajar dan mengembangkan proyek versi Anda sendiri**.
