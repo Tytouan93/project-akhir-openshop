@@ -40,6 +40,60 @@ Dengan ini, sistem akan lebih aman karena data tidak benar-benar terhapus dari b
 Semangat terus dalam meningkatkan kualitas API-mu! 💪
 
  ---
+ ## 🚀 Cara Clone & Menjalankan Project Ini
+ 
+ Ikuti langkah-langkah berikut untuk menyalin dan menjalankan project ini di lingkungan lokal Anda.
+ 
+ ### 1. Clone Repository
+ Jalankan perintah berikut di terminal:
+ 
+ ```bash
+ git clone https://github.com/username/project-akhir-openshop.git
+ cd project-akhir-openshop
+ ```
+ 
+ > Gantilah `username` dengan nama akun GitHub Anda jika sudah melakukan fork.
+ 
+ ### 2. Instalasi Dependensi
+ Pastikan Anda menggunakan Python 3.10 atau versi yang direkomendasikan oleh Dicoding.
+ 
+ ```bash
+ pip install pipenv
+ pipenv install
+ ```
+ 
+ ### 3. Aktivasi Virtual Environment
+ 
+ ```bash
+ pipenv shell
+ ```
+ 
+ ### 4. Migrasi Database
+ 
+ ```bash
+ python manage.py migrate
+ ```
+ 
+ ### 5. Menjalankan Server
+ 
+ ```bash
+ python manage.py runserver
+ ```
+ 
+ Server akan berjalan di `http://127.0.0.1:8000/`
+ 
+ ---
+ ✅ Sekarang Anda dapat mulai menggunakan RESTful API untuk fitur CRUD produk!
+ 
+ Jika Anda ingin menguji dengan Postman, Anda bisa impor collection dari tugas submission Dicoding atau membuat request manual ke endpoint seperti:
+ 
+ - `GET /products/`
+ - `POST /products/`
+ - `PUT /products/<uuid>/`
+ - `DELETE /products/<uuid>/`
+
+ 
+ ---
  ⚠️ **Catatan Penting**
  - Repository ini dibuat untuk keperluan **belajar pribadi** dan dokumentasi hasil pengerjaan proyek.
  - **DILARANG KERAS** melakukan **plagiarisme** atau **mengirimkan ulang** repository ini sebagai submission proyek akhir Anda di platform Dicoding.
